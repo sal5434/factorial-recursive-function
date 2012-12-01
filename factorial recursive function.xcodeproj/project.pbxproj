@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B887030166AAC4B00A7A815 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B88702F166AAC4B00A7A815 /* main.cpp */; };
+		7B887032166AAC4B00A7A815 /* factorial_recursive_function.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7B887031166AAC4B00A7A815 /* factorial_recursive_function.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7B887029166AAC4B00A7A815 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				7B887032166AAC4B00A7A815 /* factorial_recursive_function.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7B88702B166AAC4B00A7A815 /* factorial recursive function */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "factorial recursive function"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B88702F166AAC4B00A7A815 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7B887031166AAC4B00A7A815 /* factorial_recursive_function.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = factorial_recursive_function.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B887028166AAC4B00A7A815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B887020166AAC4B00A7A815 = {
+			isa = PBXGroup;
+			children = (
+				7B88702E166AAC4B00A7A815 /* factorial recursive function */,
+				7B88702C166AAC4B00A7A815 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B88702C166AAC4B00A7A815 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B88702B166AAC4B00A7A815 /* factorial recursive function */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B88702E166AAC4B00A7A815 /* factorial recursive function */ = {
+			isa = PBXGroup;
+			children = (
+				7B88702F166AAC4B00A7A815 /* main.cpp */,
+				7B887031166AAC4B00A7A815 /* factorial_recursive_function.1 */,
+			);
+			path = "factorial recursive function";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B88702A166AAC4B00A7A815 /* factorial recursive function */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B887035166AAC4B00A7A815 /* Build configuration list for PBXNativeTarget "factorial recursive function" */;
+			buildPhases = (
+				7B887027166AAC4B00A7A815 /* Sources */,
+				7B887028166AAC4B00A7A815 /* Frameworks */,
+				7B887029166AAC4B00A7A815 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "factorial recursive function";
+			productName = "factorial recursive function";
+			productReference = 7B88702B166AAC4B00A7A815 /* factorial recursive function */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B887022166AAC4B00A7A815 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Sarah Lakos";
+			};
+			buildConfigurationList = 7B887025166AAC4B00A7A815 /* Build configuration list for PBXProject "factorial recursive function" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7B887020166AAC4B00A7A815;
+			productRefGroup = 7B88702C166AAC4B00A7A815 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B88702A166AAC4B00A7A815 /* factorial recursive function */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B887027166AAC4B00A7A815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B887030166AAC4B00A7A815 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7B887033166AAC4B00A7A815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7B887034166AAC4B00A7A815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7B887036166AAC4B00A7A815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B887037166AAC4B00A7A815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B887025166AAC4B00A7A815 /* Build configuration list for PBXProject "factorial recursive function" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B887033166AAC4B00A7A815 /* Debug */,
+				7B887034166AAC4B00A7A815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B887035166AAC4B00A7A815 /* Build configuration list for PBXNativeTarget "factorial recursive function" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B887036166AAC4B00A7A815 /* Debug */,
+				7B887037166AAC4B00A7A815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B887022166AAC4B00A7A815 /* Project object */;
+}
