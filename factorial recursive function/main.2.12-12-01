@@ -1,0 +1,80 @@
+// Author: Sarah Lakos
+//
+// second change
+//
+#include <iostream>
+#include <cassert>
+using namespace std;
+
+const bool verbose = true;
+
+int globalcount = 0;
+
+int Factorial(int number)
+{
+	++ globalcount;
+    
+	cout << "counter: " << globalcount << endl;
+	if(number == 0)
+	{
+		return 1;
+	}
+	else
+	    return Factorial(number - 1) * number;
+}
+
+void TestFactorial()
+// Test to make sure the function 'Factorial' is working correctly.
+{
+    if (verbose) cout << endl << "TestFactorial" << endl;
+    
+    {
+        if (verbose) cout << "0-4 is good????" << endl;
+        
+        
+         assert(Factorial(0) == 1);
+		assert(Factorial(1) == 1);
+		assert(Factorial(2) == 2);
+		assert(Factorial(3) == 6);
+		assert(Factorial(4) == 24);
+		if (verbose) cout << "0-4 is good" << endl;
+	}
+}
+
+int FactorialNum()
+// Prompts user for a number to find it's factorial terminating if a negative number is received
+{
+	int number = 1;
+	while( number > 0)
+	{
+		cout << "please enter a number for the factorial" << endl;
+		cin >> number;
+		Factorial(number);
+	}
+	if ( number < 0)
+	{
+		cout << "Bie!Bie!" << endl;
+		return 0;
+	}
+	return number;
+}
+
+
+int main()
+{
+	
+    if(verbose == true)
+    {
+        cout << "Hello World ... verbose true" << endl;
+    }
+    
+	TestFactorial();
+    
+	cout << "factorial" << endl;
+	FactorialNum();
+	
+    
+	return 0;
+}
+
+
